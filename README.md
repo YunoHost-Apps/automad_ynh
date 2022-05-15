@@ -25,9 +25,6 @@ A flat-file content management system and template engine
 
 ![](./doc/screenshots/readme.png)
 
-## Disclaimers / important information
-
-Create an user account in order to use the browser-based user interface called the Dashboard. Therefore navigate to `https://yoursite.com/dashboard` and follow the instructions.
 ## Documentation and resources
 
 * Official app website: https://automad.org/
