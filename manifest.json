@@ -1,0 +1,45 @@
+{
+    "name": "Automad",
+    "id": "automad",
+    "packaging_format": 1,
+    "description": {
+        "en": "Flat-file content management system and template engine",
+        "fr": "Système de gestion de contenu de fichiers plats et un moteur de modèles"
+    },
+    "version": "1.10.9~ynh1",
+    "url": "https://automad.org/",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://automad.org/",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://automad.org/getting-started",
+        "userdoc": "https://automad.org/user-guide",
+        "code": "https://github.com/marcantondahmen/automad"
+    },
+    "license": "MIT",
+    "maintainer": {
+        "name": "John doe",
+        "email": "john.doe@example.com"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php8.0-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
