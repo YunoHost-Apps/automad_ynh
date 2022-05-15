@@ -36,12 +36,6 @@
                 "type": "domain"
             },
             {
-                "name": "path",
-                "type": "path",
-                "example": "/automad",
-                "default": "/automad"
-            },
-            {
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
