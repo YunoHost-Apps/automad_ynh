@@ -1,0 +1,1 @@
+Create an user account in order to use the browser-based user interface called the Dashboard. Therefore navigate to `https://yoursite.com/dashboard` and follow the instructions.
