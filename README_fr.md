@@ -17,7 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 A flat-file content management system and template engine
 
-**Version incluse :** 1.10.9~ynh1
+**Version incluse :** 1.10.9~ynh2
 
 **Démo :** https://demo.example.com
 
