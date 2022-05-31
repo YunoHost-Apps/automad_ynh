@@ -7,6 +7,7 @@
 #=================================================
 
 source _common.sh
+source ynh_send_readme_to_admin__2
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -99,7 +100,9 @@ ynh_add_fpm_config
 #=================================================
 ynh_script_progression --message="Setting up the first user..." --weight=1
 
-php${phpversion} $final_path/automad/console createuser
+user_info=$(ynh_exec_as $app php${phpversion} $final_path/automad/console createuser)
+user_name=$(echo "$user_info" | grep "Name:")
+user_pass=$(echo "$user_info" | grep "Password:")
 
 #=================================================
 # SETUP SSOWAT
@@ -118,6 +121,13 @@ fi
 ynh_script_progression --message="Reloading NGINX web server..." --weight=1
 
 ynh_systemd_action --service_name=nginx --action=reload
+
+#=================================================
+# SEND A README FOR THE ADMIN
+#=================================================
+ynh_script_progression --message="Sending a readme for the admin..."
+
+ynh_send_readme_to_admin --app_message="../conf/msg_install" --recipients="root@$domain" --type="install"
 
 #=================================================
 # END OF SCRIPT
