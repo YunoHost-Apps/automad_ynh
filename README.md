@@ -20,8 +20,6 @@ A flat-file content management system and template engine
 **Shipped version:** 1.10.9~ynh2
 
 
-**Demo:** https://demo.example.com
-
 ## Screenshots
 
 ![Screenshot of Automad](./doc/screenshots/readme.png)
