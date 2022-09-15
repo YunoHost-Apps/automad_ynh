@@ -6,7 +6,7 @@
         "en": "Flat-file content management system and template engine",
         "fr": "Système de gestion de contenu de fichiers plats et un moteur de modèles"
     },
-    "version": "1.10.9~ynh2",
+    "version": "1.10.9~ynh3",
     "url": "https://automad.org/",
     "upstream": {
         "license": "MIT",
