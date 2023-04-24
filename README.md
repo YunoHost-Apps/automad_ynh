@@ -24,10 +24,6 @@ A flat-file content management system and template engine
 
 ![Screenshot of Automad](./doc/screenshots/readme.png)
 
-## Disclaimers / important information
-
-The credentials are emailed to the root account. Navigate to `https://yoursite.com/dashboard` with these credentials and follow the instructions.
-
 ## Documentation and resources
 
 * Official app website: <https://automad.org/>
