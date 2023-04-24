@@ -4,9 +4,9 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="8.0"
+#REMOVEME? YNH_PHP_VERSION="8.0"
 
-pkg_dependencies="php${YNH_PHP_VERSION}-gd php${YNH_PHP_VERSION}-zip php${YNH_PHP_VERSION}-curl"
+#REMOVEME? pkg_dependencies="php${YNH_PHP_VERSION}-gd php${YNH_PHP_VERSION}-zip php${YNH_PHP_VERSION}-curl"
 
 #=================================================
 # PERSONAL HELPERS
@@ -45,7 +45,7 @@ ynh_send_readme_to_admin() {
 	type="${type:-install}"
 
 	# Get the value of admin_mail_html
-	admin_mail_html=$(ynh_app_setting_get $app admin_mail_html)
+#REMOVEME? 	admin_mail_html=$(ynh_app_setting_get $app admin_mail_html)
 	admin_mail_html="${admin_mail_html:-0}"
 
 	# Retrieve the email of users
