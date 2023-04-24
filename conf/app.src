@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/marcantondahmen/automad/archive/refs/tags/1.10.9.tar.gz
-SOURCE_SUM=d60266a2e7b4f433cf0484583dfd933c9facfbd09ab79c6db5897e9b8abe996b
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
