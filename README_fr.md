@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 A flat-file content management system and template engine
 
-**Version incluse :** 1.10.9~ynh3
+**Version incluse :** 1.10.9~ynh4
 
 ## Captures d’écran
 
