@@ -5,35 +5,31 @@ It shall NOT be edited by hand.
 
 # Automad pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+
 [![Installer Automad avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Automad rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Automad rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 A flat-file content management system and template engine
 
-**Version incluse :** 1.10.9~ynh3
+**Version incluse :** 1.10.9~ynh3
 
+## Captures d’écran
 
-## Captures d'écran
-
-![Capture d'écran de Automad](./doc/screenshots/readme.png)
-
-## Avertissements / informations importantes
-
-The credentials are emailed to the root account. Navigate to `https://yoursite.com/dashboard` with these credentials and follow the instructions.
+![Capture d’écran de Automad](./doc/screenshots/readme.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://automad.org/>
+* Site officiel de l’app : <https://automad.org/>
 * Documentation officielle utilisateur : <https://automad.org/user-guide>
-* Documentation officielle de l'admin : <https://automad.org/getting-started>
-* Dépôt de code officiel de l'app : <https://github.com/marcantondahmen/automad>
+* Documentation officielle de l’admin : <https://automad.org/getting-started>
+* Dépôt de code officiel de l’app : <https://github.com/marcantondahmen/automad>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_automad>
 * Signaler un bug : <https://github.com/YunoHost-Apps/automad_ynh/issues>
 
@@ -49,4 +45,4 @@ ou
 sudo yunohost app upgrade automad -u https://github.com/YunoHost-Apps/automad_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
