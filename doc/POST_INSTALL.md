@@ -1,5 +1,3 @@
-__APP__ was successfully installed :)
-
 A user was created:
 
 __USER_NAME__
