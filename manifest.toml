@@ -5,7 +5,7 @@ name = "Automad"
 description.en = "Flat-file content management system and template engine"
 description.fr = "Système de gestion de contenu de fichiers plats et un moteur de modèles"
 
-version = "1.10.9~ynh4"
+version = "1.10.9~ynh5"
 
 maintainers = []
 
