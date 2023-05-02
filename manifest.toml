@@ -5,7 +5,7 @@ name = "Automad"
 description.en = "Flat-file content management system and template engine"
 description.fr = "Système de gestion de contenu de fichiers plats et un moteur de modèles"
 
-version = "1.10.9~ynh4"
+version = "1.10.9~ynh5"
 
 maintainers = []
 
@@ -42,7 +42,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/marcantondahmen/automad/archive/refs/tags/1.10.9.tar.gz"
         sha256 = "d60266a2e7b4f433cf0484583dfd933c9facfbd09ab79c6db5897e9b8abe996b"
-
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 

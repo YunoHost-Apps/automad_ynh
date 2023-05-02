@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 A flat-file content management system and template engine
 
-**Shipped version:** 1.10.9~ynh4
+**Shipped version:** 1.10.9~ynh5
 
 ## Screenshots
 
