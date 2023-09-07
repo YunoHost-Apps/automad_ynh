@@ -17,7 +17,7 @@ userdoc = "https://automad.org/user-guide"
 code = "https://github.com/marcantondahmen/automad"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -52,4 +52,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-gd php8.2-zip php8.2-curl"
+    packages = "php8.2-gd, php8.2-zip, php8.2-curl"
