@@ -30,7 +30,7 @@ A flat-file content management system and template engine
 * Documentation officielle utilisateur : <https://automad.org/user-guide>
 * Documentation officielle de l’admin : <https://automad.org/getting-started>
 * Dépôt de code officiel de l’app : <https://github.com/marcantondahmen/automad>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_automad>
+* YunoHost Store: <https://apps.yunohost.org/app/automad>
 * Signaler un bug : <https://github.com/YunoHost-Apps/automad_ynh/issues>
 
 ## Informations pour les développeurs
