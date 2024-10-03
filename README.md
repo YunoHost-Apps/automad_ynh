@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Automad for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Working status](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/automad.svg)](https://ci-apps.yunohost.org/ci/apps/automad/) ![Working status](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
 
 [![Install Automad with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 

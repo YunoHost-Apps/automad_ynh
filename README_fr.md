@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Automad pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/automad.svg)](https://ci-apps.yunohost.org/ci/apps/automad/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
 
 [![Installer Automad avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 

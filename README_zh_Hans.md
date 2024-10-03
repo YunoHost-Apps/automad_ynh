@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Automad
 
-[![集成程度](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![工作状态](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/automad.svg)](https://ci-apps.yunohost.org/ci/apps/automad/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
 
 [![使用 YunoHost 安装 Automad](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 

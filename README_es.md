@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Automad para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/automad.svg)](https://ci-apps.yunohost.org/ci/apps/automad/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
 
 [![Instalar Automad con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 
@@ -35,7 +35,7 @@ A flat-file content management system and template engine
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/automad_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/automad_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
