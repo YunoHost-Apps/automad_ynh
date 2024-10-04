@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Automad para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/automad.svg)](https://ci-apps.yunohost.org/ci/apps/automad/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
 
 [![Instalar Automad con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 
@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 A flat-file content management system and template engine
 
-**Versión proporcionada:** 1.10.9~ynh5
+**Versión proporcionada:** 1.10.9~ynh6
 
 ## Capturas de pantalla
 

@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Automad YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/automad.svg)](https://dash.yunohost.org/appci/app/automad) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/automad.svg)](https://ci-apps.yunohost.org/ci/apps/automad/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/automad.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/automad.maintain.svg)
 
 [![Instalatu Automad YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=automad)
 
@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 A flat-file content management system and template engine
 
-**Paketatutako bertsioa:** 1.10.9~ynh5
+**Paketatutako bertsioa:** 1.10.9~ynh6
 
 ## Pantaila-argazkiak
 
