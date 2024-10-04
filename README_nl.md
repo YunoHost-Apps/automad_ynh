@@ -18,7 +18,7 @@ Hij mag NIET handmatig aangepast worden.
 
 A flat-file content management system and template engine
 
-**Geleverde versie:** 1.10.9~ynh5
+**Geleverde versie:** 1.10.9~ynh6
 
 ## Schermafdrukken
 

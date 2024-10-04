@@ -18,7 +18,7 @@
 
 A flat-file content management system and template engine
 
-**Поставляемая версия:** 1.10.9~ynh5
+**Поставляемая версия:** 1.10.9~ynh6
 
 ## Снимки экрана
 

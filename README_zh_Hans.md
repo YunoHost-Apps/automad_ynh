@@ -18,7 +18,7 @@
 
 A flat-file content management system and template engine
 
-**分发版本：** 1.10.9~ynh5
+**分发版本：** 1.10.9~ynh6
 
 ## 截图
 

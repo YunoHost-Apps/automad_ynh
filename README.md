@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 A flat-file content management system and template engine
 
-**Shipped version:** 1.10.9~ynh5
+**Shipped version:** 1.10.9~ynh6
 
 ## Screenshots
 

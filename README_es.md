@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 A flat-file content management system and template engine
 
-**Versión actual:** 1.10.9~ynh5
+**Versión actual:** 1.10.9~ynh6
 
 ## Capturas
 

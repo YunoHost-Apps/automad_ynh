@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 A flat-file content management system and template engine
 
-**Paketatutako bertsioa:** 1.10.9~ynh5
+**Paketatutako bertsioa:** 1.10.9~ynh6
 
 ## Pantaila-argazkiak
 

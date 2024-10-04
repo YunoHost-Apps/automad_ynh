@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 A flat-file content management system and template engine
 
-**Versi terkirim:** 1.10.9~ynh5
+**Versi terkirim:** 1.10.9~ynh6
 
 ## Tangkapan Layar
 
