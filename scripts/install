@@ -15,9 +15,19 @@ ynh_setup_source --dest_dir="$install_dir"
 #=================================================
 ynh_script_progression "Configuring PHP-FPM..."
 
+# Create a PHP-FPM config (with conf/extra_php-fpm.conf being appended to it)
 ynh_config_add_phpfpm
 
+# Create a dedicated NGINX config using the conf/nginx.conf template
 ynh_config_add_nginx
+
+#=================================================
+# INSTALL BOOKSTACK WITH COMPOSER
+#=================================================
+ynh_script_progression "Installing $app with Composer..."
+
+ynh_composer_install
+ynh_composer_exec install --no-dev
 
 #=================================================
 # SETUP FIRST USER
