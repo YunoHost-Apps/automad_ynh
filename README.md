@@ -18,6 +18,10 @@ Flat-file content management system and template engine
 <a href="https://github.com/YunoHost-Apps/automad_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
+
+## Screenshots
+![Screenshot of Automad](./doc/screenshots/readme.png)
+
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/automad)](https://ci-apps.yunohost.org/ci/apps/automad/)
