@@ -57,3 +57,7 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = "php8.2-gd, php8.2-zip, php8.2-curl"
+
+    [resources.composer]
+    version = "2.8.10"
+    
