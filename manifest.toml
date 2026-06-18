@@ -17,7 +17,7 @@ userdoc = "https://automad.org/user-guide"
 code = "https://github.com/marcantondahmen/automad"
 
 [integration]
-yunohost = ">= 12.1.39"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
