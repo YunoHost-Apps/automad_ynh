@@ -23,12 +23,7 @@ ynh_config_add_nginx
 #=================================================
 ynh_script_progression "Setting up the first user..."
 
-user_info=$(ynh_exec_as_app php${php_version} $install_dir/automad/console user:create)
-user_name=$(echo "$user_info" | grep "Name:")
-user_pass=$(echo "$user_info" | grep "Password:")
-
-ynh_app_setting_set --key=user_name --value=$user_name
-ynh_app_setting_set --key=user_pass --value=$user_pass
+user_info=$(ynh_exec_as_app php${php_version} $install_dir/automad/console user:create --username $admin --password $password)
 
 #=================================================
 # END OF SCRIPT
