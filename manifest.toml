@@ -41,6 +41,16 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.user]
+    type = "user"
+    ask.en = "Please chose the first user :"
+    ask.fr = "Choisissez le premier utilisateur :"
+
+    [install.password]
+    ask.en = "Please chose a password for the first user :"
+    ask.fr = "Choisissez un mot de passe :"
+    type = "password"
+
 [resources]
         [resources.sources.main]
         url = "https://github.com/automadcms/automad-dist/archive/refs/tags/2.0.0-beta.54.tar.gz"
