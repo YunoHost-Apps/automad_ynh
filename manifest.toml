@@ -43,8 +43,8 @@ ram.runtime = "50M"
 
     [install.user]
     type = "user"
-    ask.en = "Please chose the first user:"
-    ask.fr = "Choisissez le premier utilisateur :"
+    ask.en = "Choose the first user"
+    ask.fr = "Choisissez le premier utilisateur"
 
     [install.password]
     type = "password"
