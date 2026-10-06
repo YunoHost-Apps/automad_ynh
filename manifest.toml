@@ -5,7 +5,7 @@ name = "Automad"
 description.en = "Flat-file content management system and template engine"
 description.fr = "Système de gestion de contenu de fichiers plats et un moteur de modèles"
 
-version = "1.10.9~ynh7"
+version = "2.0.0-beta.59~ynh1"
 
 maintainers = []
 
@@ -17,7 +17,7 @@ userdoc = "https://automad.org/user-guide"
 code = "https://github.com/marcantondahmen/automad"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -25,8 +25,8 @@ multi_instance = true
 ldap = false
 sso = false
 
-disk = "50M"
-ram.build = "50M"
+disk = "900M"
+ram.build = "100M"
 ram.runtime = "50M"
 
 [install]
@@ -41,10 +41,18 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.user]
+    type = "user"
+    ask.en = "Choose the first user"
+    ask.fr = "Choisissez le premier utilisateur"
+
+    [install.password]
+    type = "password"
+
 [resources]
         [resources.sources.main]
-        url = "https://github.com/marcantondahmen/automad/archive/refs/tags/1.10.9.tar.gz"
-        sha256 = "d60266a2e7b4f433cf0484583dfd933c9facfbd09ab79c6db5897e9b8abe996b"
+        url = "https://github.com/automadcms/automad-dist/archive/refs/tags/2.0.0-beta.59.tar.gz"
+        sha256 = "a1f35ea9bbbfd4622c76e1f2357996d616ffbef09360637b4d28053e1029bfe4"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -56,4 +64,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-gd, php8.2-zip, php8.2-curl"
+    packages = "php8.5-gd, php8.5-zip, php8.5-curl"
